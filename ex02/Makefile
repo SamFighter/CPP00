@@ -1,12 +1,11 @@
-NAME			:=	PhoneBook
+NAME			:=	ex02
 
 # **************************************************************************** #
 #                                 INGREDIENTS                                  #
 # **************************************************************************** #
 
-SRC				:=	PhoneBook.cpp		\
-					Contact.cpp			\
-					main.cpp			\
+SRC				:=	Account.cpp	\
+					tests.cpp	\
 
 SRC_OBJS		:=	$(SRC:%.cpp=.build/%.o)
 DEPS			:=	$(SRC_OBJS:%.o=%.d)
